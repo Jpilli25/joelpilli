@@ -1,0 +1,94 @@
+{
+  "name": "Your Name",
+  "headline": "Your headline (e.g., Senior Product Manager · B2B SaaS)",
+  "role": "Your role / title",
+  "location": "City, Country",
+  "availability": "Open to opportunities",
+  "summary": "Write 2–3 sentences that explain what you do, what you’re known for, and what roles you’re targeting.",
+  "bio": [
+    "Paragraph 1: your background and focus.",
+    "Paragraph 2: what makes you effective (strengths, approach, values).",
+    "Paragraph 3: what you’re looking for next."
+  ],
+  "lookingFor": "Examples: Senior roles in product, engineering leadership, consulting projects, advisory.",
+  "industries": ["B2B SaaS", "FinTech", "Healthcare"],
+  "stats": {
+    "yearsExperience": 7,
+    "projects": 18,
+    "endorsements": 25
+  },
+  "skills": [
+    "Strategy",
+    "Stakeholder Management",
+    "Analytics",
+    "Execution",
+    "Leadership"
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/your-handle/",
+    "github": "https://github.com/your-handle",
+    "website": "https://yourdomain.com",
+    "resume": "https://example.com/resume.pdf",
+    "email": "you@example.com"
+  },
+  "experience": [
+    {
+      "company": "Company Name",
+      "title": "Job Title",
+      "location": "Remote",
+      "start": "2023",
+      "end": "Present",
+      "highlights": [
+        "Impact bullet with metrics.",
+        "Scope bullet: team size, budget, users.",
+        "Leadership bullet: cross-functional work, mentoring, etc."
+      ]
+    },
+    {
+      "company": "Previous Company",
+      "title": "Job Title",
+      "location": "City",
+      "start": "2020",
+      "end": "2023",
+      "highlights": [
+        "Impact bullet.",
+        "Impact bullet."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Award / Certification",
+      "date": "2024",
+      "description": "One sentence on why it matters.",
+      "link": ""
+    },
+    {
+      "title": "Key Launch",
+      "date": "2023",
+      "description": "What shipped and the measurable outcome.",
+      "link": ""
+    },
+    {
+      "title": "Speaking / Publication",
+      "date": "2022",
+      "description": "Where you spoke/published and the topic.",
+      "link": ""
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "A short, specific quote about how you work and your results.",
+      "name": "Person Name",
+      "title": "Title, Company",
+      "relationship": "Manager / Peer / Direct report"
+    },
+    {
+      "quote": "Another quote that emphasizes collaboration, leadership, reliability, or craftsmanship.",
+      "name": "Person Name",
+      "title": "Title, Company",
+      "relationship": "Client / Partner"
+    }
+  ],
+  "contactPitch": "If you’re hiring or want to collaborate, I’d love to hear from you."
+}
