@@ -199,13 +199,13 @@ function render(profile) {
   const emailHref = email ? `mailto:${email}` : "";
   setHref("cardEmail", emailHref);
   const emailLabelEl = $("cardEmail");
-  if (emailLabelEl) emailLabelEl.textContent = email ? email : "Email";
+  if (emailLabelEl) emailLabelEl.textContent = "Email";
 
   const phone = profile.links?.phone;
   const phoneHref = phone ? `tel:${String(phone).replace(/[^+\d]/g, "")}` : "";
   setHref("cardPhone", phoneHref);
   const phoneLabelEl = $("cardPhone");
-  if (phoneLabelEl) phoneLabelEl.textContent = phone ? phone : "Phone";
+  if (phoneLabelEl) phoneLabelEl.textContent = "Phone";
 
   setHref("cardWebsite", profile.links?.website);
   setHref("cardGitHub", profile.links?.github);
