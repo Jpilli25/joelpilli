@@ -192,9 +192,6 @@ function render(profile) {
     heroAvatarEl.src = img;
   }
 
-  setText("cardName", name);
-  setText("cardLocation", profile.location ?? "");
-
   const email = profile.links?.email;
   const emailHref = email ? `mailto:${email}` : "";
   setHref("cardEmail", emailHref);
@@ -207,8 +204,8 @@ function render(profile) {
   const phoneLabelEl = $("cardPhone");
   if (phoneLabelEl) phoneLabelEl.textContent = "Phone";
 
-  setHref("cardWebsite", profile.links?.website);
-  setHref("cardGitHub", profile.links?.github);
+  setHref("cardLinkedIn", profile.links?.linkedin);
+  setHref("cardProjects", profile.links?.projects);
 
   setHref("navLinkedIn", profile.links?.linkedin);
   setHref("contactLinkedIn", profile.links?.linkedin);
