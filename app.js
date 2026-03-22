@@ -211,32 +211,12 @@ function render(profile) {
   setHref("cardGitHub", profile.links?.github);
 
   setHref("navLinkedIn", profile.links?.linkedin);
-  setHref("aboutLinkedIn", profile.links?.linkedin);
   setHref("contactLinkedIn", profile.links?.linkedin);
 
   const skillsEl = $("skills");
   if (skillsEl) {
     skillsEl.innerHTML = "";
     for (const s of profile.skills ?? []) skillsEl.appendChild(pill(s));
-  }
-
-  const bioEl = $("aboutBio");
-  if (bioEl) {
-    bioEl.innerHTML = "";
-    for (const para of profile.bio ?? []) {
-      const p = document.createElement("p");
-      p.className = "text-sm leading-relaxed text-slate-300";
-      p.textContent = para;
-      bioEl.appendChild(p);
-    }
-  }
-
-  setText("aboutLookingFor", profile.lookingFor ?? "");
-
-  const industriesEl = $("aboutIndustries");
-  if (industriesEl) {
-    industriesEl.innerHTML = "";
-    for (const i of profile.industries ?? []) industriesEl.appendChild(pill(i));
   }
 
   const expEl = $("experienceList");
