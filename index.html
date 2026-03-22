@@ -35,9 +35,7 @@
     <header class="sticky top-0 z-40 border-b border-white/10 bg-slate-950/70 backdrop-blur">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
         <div class="flex items-center gap-3">
-          <div class="h-[2in] w-[2in] overflow-hidden rounded-xl border border-white/10 bg-white/5">
-            <img id="headerAvatar" alt="Profile photo" class="h-full w-full object-cover" />
-          </div>
+          <div class="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-brand-500 to-fuchsia-500 font-semibold" aria-hidden="true">P</div>
           <div class="leading-tight">
             <div id="navName" class="font-semibold">Your Name</div>
             <div id="navHeadline" class="text-sm text-slate-300">Your headline</div>
@@ -81,10 +79,15 @@
             <span id="heroAvailability">Open to opportunities</span>
           </div>
 
-          <h1 class="mt-5 text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-            <span id="heroName">Your Name</span>
-            <span class="block text-slate-300" id="heroRole">Your role / title</span>
-          </h1>
+          <div class="mt-5 flex flex-col gap-4 sm:flex-row sm:items-center">
+            <div class="h-[2in] w-[2in] flex-none overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+              <img id="heroAvatar" alt="Profile photo" class="h-full w-full object-cover" />
+            </div>
+            <h1 class="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+              <span id="heroName">Your Name</span>
+              <span class="block text-slate-300" id="heroRole">Your role / title</span>
+            </h1>
+          </div>
 
           <p class="mt-5 max-w-2xl text-base leading-relaxed text-slate-300 sm:text-lg" id="heroSummary">
             A short, compelling summary of what you do, what you’re great at, and the kinds of roles you’re looking for.
