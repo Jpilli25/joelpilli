@@ -180,12 +180,6 @@ function render(profile) {
   setText("heroRole", profile.role ?? headline);
   setText("heroSummary", profile.summary ?? "");
 
-  setHref("heroResume", profile.links?.resume);
-
-  setText("statYears", profile.stats?.yearsExperience ?? "—");
-  setText("statProjects", profile.stats?.projects ?? "—");
-  setText("statEndorsements", profile.stats?.endorsements ?? "—");
-
   const heroAvatarEl = $("heroAvatar");
   if (heroAvatarEl) {
     const img = profile.avatarUrl || "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=256&q=80";
@@ -203,6 +197,7 @@ function render(profile) {
   setHref("cardLinkedIn", profile.links?.linkedin);
   setHref("cardProjects", profile.links?.projects);
   setHref("cardResume", profile.links?.resume);
+  setHref("cardEndorsements", profile.links?.endorsements);
 
   setHref("navLinkedIn", profile.links?.linkedin);
   setHref("contactLinkedIn", profile.links?.linkedin);
@@ -211,12 +206,6 @@ function render(profile) {
   if (skillsEl) {
     skillsEl.innerHTML = "";
     for (const s of profile.skills ?? []) skillsEl.appendChild(pill(s));
-  }
-
-  const expEl = $("experienceList");
-  if (expEl) {
-    expEl.innerHTML = "";
-    for (const item of profile.experience ?? []) expEl.appendChild(experienceItem(item));
   }
 
   const achEl = $("achievementGrid");
