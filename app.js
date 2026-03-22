@@ -201,6 +201,12 @@ function render(profile) {
   const emailLabelEl = $("cardEmail");
   if (emailLabelEl) emailLabelEl.textContent = email ? email : "Email";
 
+  const phone = profile.links?.phone;
+  const phoneHref = phone ? `tel:${String(phone).replace(/[^+\d]/g, "")}` : "";
+  setHref("cardPhone", phoneHref);
+  const phoneLabelEl = $("cardPhone");
+  if (phoneLabelEl) phoneLabelEl.textContent = phone ? phone : "Phone";
+
   setHref("cardWebsite", profile.links?.website);
   setHref("cardGitHub", profile.links?.github);
 
