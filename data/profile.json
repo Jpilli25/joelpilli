@@ -4,11 +4,12 @@
   "role": "Your role / title",
   "location": "Chico, CA",
   "availability": "Open to opportunities",
-  "summary": "Write 2–3 sentences that explain what you do, what you’re known for, and what roles you’re targeting.",
+  "avatarUrl": "./assets/profile.jpg",
+  "summary": "After leading operations and working across different industries, I’ve learned that successful projects really come down to clear communication and the ability to adapt when things change. I’m comfortable connecting big-picture ideas to the day-to-day work, turning messy goals into plans that teams can actually follow.",
   "bio": [
-    "Paragraph 1: your background and focus.",
-    "Paragraph 2: what makes you effective (strengths, approach, values).",
-    "Paragraph 3: what you’re looking for next."
+    "After leading operations and working across different industries, I’ve learned that successful projects really come down to clear communication and the ability to adapt when things change. I’m comfortable connecting big-picture ideas to the day-to-day work, turning messy goals into plans that teams can actually follow.",
+    "Whether it’s a nonprofit initiative or an ad campaign, I focus on delivering results that make sense and move things forward.",
+    "I’m looking to bring that same practical, organized approach to a team that values thoughtful execution."
   ],
   "lookingFor": "Examples: Senior roles in product, engineering leadership, consulting projects, advisory.",
   "industries": ["B2B SaaS", "FinTech", "Healthcare"],
