@@ -202,6 +202,7 @@ function render(profile) {
 
   setHref("cardLinkedIn", profile.links?.linkedin);
   setHref("cardProjects", profile.links?.projects);
+  setHref("cardResume", profile.links?.resume);
 
   setHref("navLinkedIn", profile.links?.linkedin);
   setHref("contactLinkedIn", profile.links?.linkedin);
