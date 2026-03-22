@@ -186,10 +186,10 @@ function render(profile) {
   setText("statProjects", profile.stats?.projects ?? "—");
   setText("statEndorsements", profile.stats?.endorsements ?? "—");
 
-  const avatarEl = $("avatar");
-  if (avatarEl) {
+  const headerAvatarEl = $("headerAvatar");
+  if (headerAvatarEl) {
     const img = profile.avatarUrl || "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=256&q=80";
-    avatarEl.src = img;
+    headerAvatarEl.src = img;
   }
 
   setText("cardName", name);

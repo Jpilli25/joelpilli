@@ -35,7 +35,9 @@
     <header class="sticky top-0 z-40 border-b border-white/10 bg-slate-950/70 backdrop-blur">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
         <div class="flex items-center gap-3">
-          <div class="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-brand-500 to-fuchsia-500 font-semibold" aria-hidden="true">P</div>
+          <div class="h-[2in] w-[2in] overflow-hidden rounded-xl border border-white/10 bg-white/5">
+            <img id="headerAvatar" alt="Profile photo" class="h-full w-full object-cover" />
+          </div>
           <div class="leading-tight">
             <div id="navName" class="font-semibold">Your Name</div>
             <div id="navHeadline" class="text-sm text-slate-300">Your headline</div>
@@ -111,14 +113,9 @@
 
         <aside class="md:col-span-2">
           <div class="rounded-3xl border border-white/10 bg-gradient-to-b from-white/10 to-white/5 p-6">
-            <div class="flex items-center gap-4">
-              <div class="h-14 w-14 overflow-hidden rounded-2xl bg-white/10">
-                <img id="avatar" alt="Profile photo" class="h-full w-full object-cover" />
-              </div>
-              <div class="min-w-0">
-                <div class="truncate text-base font-semibold text-white" id="cardName">Your Name</div>
-                <div class="truncate text-sm text-slate-300" id="cardLocation">City, Country</div>
-              </div>
+            <div class="min-w-0">
+              <div class="truncate text-base font-semibold text-white" id="cardName">Your Name</div>
+              <div class="truncate text-sm text-slate-300" id="cardLocation">City, Country</div>
             </div>
 
             <div class="mt-6 grid gap-3">
