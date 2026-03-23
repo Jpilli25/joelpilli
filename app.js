@@ -208,6 +208,12 @@ function render(profile) {
     for (const s of profile.skills ?? []) skillsEl.appendChild(pill(s));
   }
 
+  const expEl = $("experienceList");
+  if (expEl) {
+    expEl.innerHTML = "";
+    for (const item of profile.experience ?? []) expEl.appendChild(experienceItem(item));
+  }
+
   const achEl = $("achievementGrid");
   if (achEl) {
     achEl.innerHTML = "";

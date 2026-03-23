@@ -38,15 +38,16 @@
   },
   "experience": [
     {
-      "company": "Company Name",
-      "title": "Job Title",
-      "location": "Remote",
-      "start": "2023",
-      "end": "Present",
+      "company": "Amazon",
+      "title": "Sr HR Assistant",
+      "location": "Hyderabad, Telangana, India",
+      "start": "May 2020",
+      "end": "Feb 2021",
       "highlights": [
-        "Impact bullet with metrics.",
-        "Scope bullet: team size, budget, users.",
-        "Leadership bullet: cross-functional work, mentoring, etc."
+        "Led cross-functional HR initiatives across payroll, benefits, onboarding, and compliance, ensuring alignment with organizational goals and efficient delivery.",
+        "Drove process improvements and implemented tracking systems to streamline workflows, reduce response times, and enhance overall service efficiency.",
+        "Acted as a key stakeholder liaison, managing escalations, resolving complex issues, and maintaining clear communication while ensuring regulatory compliance.",
+        "Applied project management principles to prioritize tasks, manage dependencies, and consistently deliver high-quality outcomes in a fast-paced environment."
       ]
     },
     {
@@ -55,6 +56,39 @@
       "location": "City",
       "start": "2020",
       "end": "2023",
+      "highlights": [
+        "Impact bullet.",
+        "Impact bullet."
+      ]
+    },
+    {
+      "company": "Company",
+      "title": "Job Title",
+      "location": "City",
+      "start": "2018",
+      "end": "2020",
+      "highlights": [
+        "Impact bullet.",
+        "Impact bullet."
+      ]
+    },
+    {
+      "company": "Company",
+      "title": "Job Title",
+      "location": "City",
+      "start": "2016",
+      "end": "2018",
+      "highlights": [
+        "Impact bullet.",
+        "Impact bullet."
+      ]
+    },
+    {
+      "company": "Company",
+      "title": "Job Title",
+      "location": "City",
+      "start": "2014",
+      "end": "2016",
       "highlights": [
         "Impact bullet.",
         "Impact bullet."
