@@ -38,16 +38,29 @@
   },
   "experience": [
     {
-      "company": "Amazon",
-      "title": "Sr HR Assistant",
-      "location": "Hyderabad, Telangana, India",
-      "start": "May 2020",
-      "end": "Feb 2021",
+      "company": "California State University, Chico",
+      "title": "Research Assistant",
+      "location": "Chico, CA",
+      "start": "Oct 2025",
+      "end": "Present",
       "highlights": [
-        "Led cross-functional HR initiatives across payroll, benefits, onboarding, and compliance, ensuring alignment with organizational goals and efficient delivery.",
-        "Drove process improvements and implemented tracking systems to streamline workflows, reduce response times, and enhance overall service efficiency.",
-        "Acted as a key stakeholder liaison, managing escalations, resolving complex issues, and maintaining clear communication while ensuring regulatory compliance.",
-        "Applied project management principles to prioritize tasks, manage dependencies, and consistently deliver high-quality outcomes in a fast-paced environment."
+        "Led data-driven projects by analyzing 500+ datasets and developing automated dashboards, improving KPI visibility and accelerating decision-making.",
+        "Partnered with cross-functional stakeholders to gather requirements, define problem statements, and deliver analytics and application solutions aligned with business objectives.",
+        "Identified inefficiencies and implemented workflow improvements, increasing operational productivity and reducing reporting cycle time.",
+        "Applied Agile and project management principles to manage concurrent initiatives, enhance user experience, and support system implementation, training, and adoption."
+      ]
+    },
+    {
+      "company": "California State University, Chico",
+      "title": "Instructional Student Assistant",
+      "location": "Chico, CA",
+      "start": "Sep 2023",
+      "end": "May 2025",
+      "highlights": [
+        "Managed multiple concurrent academic projects by applying Agile principles, milestone tracking, and stakeholder coordination to ensure timely and effective delivery.",
+        "Collaborated with faculty to develop data-driven instructional materials and optimize workflows, improving curriculum outcomes and operational efficiency.",
+        "Acted as a key liaison between faculty and students, leading regular check-ins, resolving blockers, and maintaining clear communication to align deliverables.",
+        "Leveraged training, data analysis, and process improvement skills to enhance user adoption of enterprise tools and support informed decision-making in a collaborative, deadline-driven environment."
       ]
     },
     {
@@ -61,6 +74,19 @@
         "Developed data-driven strategies, managed budgets and resources, and implemented process improvements to optimize delivery efficiency and cost effectiveness.",
         "Led cross-functional teams through Agile project cycles, driving collaboration, accountability, and consistent program execution.",
         "Managed stakeholder communication, reporting, and vendor coordination to ensure alignment, transparency, and successful project outcomes."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Sr HR Assistant",
+      "location": "Hyderabad, Telangana, India",
+      "start": "May 2020",
+      "end": "Feb 2021",
+      "highlights": [
+        "Led cross-functional HR initiatives across payroll, benefits, onboarding, and compliance, ensuring alignment with organizational goals and efficient delivery.",
+        "Drove process improvements and implemented tracking systems to streamline workflows, reduce response times, and enhance overall service efficiency.",
+        "Acted as a key stakeholder liaison, managing escalations, resolving complex issues, and maintaining clear communication while ensuring regulatory compliance.",
+        "Applied project management principles to prioritize tasks, manage dependencies, and consistently deliver high-quality outcomes in a fast-paced environment."
       ]
     },
     {
@@ -86,32 +112,6 @@
         "Supported end-to-end campaign execution and monitoring by coordinating with internal teams and ensuring timely delivery across digital advertising platforms.",
         "Utilized data analytics tools (Google Analytics, Excel) to track performance metrics, generate reports, and identify discrepancies for improved campaign outcomes.",
         "Contributed to process improvements and documentation while applying project coordination principles to enhance workflow efficiency and support team objectives."
-      ]
-    },
-    {
-      "company": "California State University, Chico",
-      "title": "Instructional Student Assistant",
-      "location": "Chico, CA",
-      "start": "Sep 2023",
-      "end": "May 2025",
-      "highlights": [
-        "Managed multiple concurrent academic projects by applying Agile principles, milestone tracking, and stakeholder coordination to ensure timely and effective delivery.",
-        "Collaborated with faculty to develop data-driven instructional materials and optimize workflows, improving curriculum outcomes and operational efficiency.",
-        "Acted as a key liaison between faculty and students, leading regular check-ins, resolving blockers, and maintaining clear communication to align deliverables.",
-        "Leveraged training, data analysis, and process improvement skills to enhance user adoption of enterprise tools and support informed decision-making in a collaborative, deadline-driven environment."
-      ]
-    },
-    {
-      "company": "California State University, Chico",
-      "title": "Research Assistant",
-      "location": "Chico, CA",
-      "start": "Oct 2025",
-      "end": "Present",
-      "highlights": [
-        "Led data-driven projects by analyzing 500+ datasets and developing automated dashboards, improving KPI visibility and accelerating decision-making.",
-        "Partnered with cross-functional stakeholders to gather requirements, define problem statements, and deliver analytics and application solutions aligned with business objectives.",
-        "Identified inefficiencies and implemented workflow improvements, increasing operational productivity and reducing reporting cycle time.",
-        "Applied Agile and project management principles to manage concurrent initiatives, enhance user experience, and support system implementation, training, and adoption."
       ]
     }
   ],
