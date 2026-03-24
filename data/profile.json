@@ -64,36 +64,54 @@
       ]
     },
     {
-      "company": "Company",
-      "title": "Job Title",
-      "location": "City",
-      "start": "2018",
-      "end": "2020",
+      "company": "MediaMint",
+      "title": "Ad Ops Specialist",
+      "location": "Hyderabad, Telangana, India",
+      "start": "Aug 2018",
+      "end": "Dec 2019",
       "highlights": [
-        "Impact bullet.",
-        "Impact bullet."
+        "Managed end-to-end digital advertising projects, coordinating with cross-functional teams and clients to optimize campaign performance, timelines, and revenue outcomes.",
+        "Leveraged data analytics tools (Google Analytics, Ad Manager) to monitor KPIs, identify trends, and drive data-informed decisions that improved targeting, engagement, and ROI.",
+        "Acted as a key stakeholder liaison, ensuring alignment through proactive communication, issue resolution, and structured reporting across campaign lifecycles.",
+        "Applied project management and Agile principles to prioritize tasks, maintain documentation, and implement continuous improvements, while enabling stakeholder training and adoption of best practices."
       ]
     },
     {
-      "company": "Company",
-      "title": "Job Title",
-      "location": "City",
-      "start": "2016",
-      "end": "2018",
+      "company": "Mediamint",
+      "title": "Ad Operations Intern",
+      "location": "Hyderabad, Telangana, India",
+      "start": "Jun 2018",
+      "end": "Aug 2018",
       "highlights": [
-        "Impact bullet.",
-        "Impact bullet."
+        "Supported end-to-end campaign execution and monitoring by coordinating with internal teams and ensuring timely delivery across digital advertising platforms.",
+        "Utilized data analytics tools (Google Analytics, Excel) to track performance metrics, generate reports, and identify discrepancies for improved campaign outcomes.",
+        "Contributed to process improvements and documentation while applying project coordination principles to enhance workflow efficiency and support team objectives."
       ]
     },
     {
-      "company": "Company",
-      "title": "Job Title",
-      "location": "City",
-      "start": "2014",
-      "end": "2016",
+      "company": "California State University, Chico",
+      "title": "Instructional Student Assistant",
+      "location": "Chico, CA",
+      "start": "Sep 2023",
+      "end": "May 2025",
       "highlights": [
-        "Impact bullet.",
-        "Impact bullet."
+        "Managed multiple concurrent academic projects by applying Agile principles, milestone tracking, and stakeholder coordination to ensure timely and effective delivery.",
+        "Collaborated with faculty to develop data-driven instructional materials and optimize workflows, improving curriculum outcomes and operational efficiency.",
+        "Acted as a key liaison between faculty and students, leading regular check-ins, resolving blockers, and maintaining clear communication to align deliverables.",
+        "Leveraged training, data analysis, and process improvement skills to enhance user adoption of enterprise tools and support informed decision-making in a collaborative, deadline-driven environment."
+      ]
+    },
+    {
+      "company": "California State University, Chico",
+      "title": "Research Assistant",
+      "location": "Chico, CA",
+      "start": "Oct 2025",
+      "end": "Present",
+      "highlights": [
+        "Led data-driven projects by analyzing 500+ datasets and developing automated dashboards, improving KPI visibility and accelerating decision-making.",
+        "Partnered with cross-functional stakeholders to gather requirements, define problem statements, and deliver analytics and application solutions aligned with business objectives.",
+        "Identified inefficiencies and implemented workflow improvements, increasing operational productivity and reducing reporting cycle time.",
+        "Applied Agile and project management principles to manage concurrent initiatives, enhance user experience, and support system implementation, training, and adoption."
       ]
     }
   ],
