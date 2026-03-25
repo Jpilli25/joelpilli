@@ -214,10 +214,10 @@ function render(profile) {
     for (const item of profile.experience ?? []) expEl.appendChild(experienceItem(item));
   }
 
-  const achEl = $("achievementGrid");
-  if (achEl) {
-    achEl.innerHTML = "";
-    for (const item of profile.achievements ?? []) achEl.appendChild(achievementItem(item));
+  const volEl = $("volunteeringGrid");
+  if (volEl) {
+    volEl.innerHTML = "";
+    for (const item of profile.volunteering ?? []) volEl.appendChild(achievementItem(item));
   }
 
   const tEl = $("testimonialGrid");
