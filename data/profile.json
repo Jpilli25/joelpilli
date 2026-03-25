@@ -120,22 +120,37 @@
   ],
   "volunteering": [
     {
-      "title": "Award / Certification",
-      "date": "2024",
-      "description": "One sentence on why it matters.",
-      "link": ""
+      "company": "Organization Name",
+      "title": "Volunteer Role",
+      "location": "City, State",
+      "start": "YYYY",
+      "end": "YYYY",
+      "highlights": [
+        "Volunteer impact bullet.",
+        "Volunteer impact bullet."
+      ]
     },
     {
-      "title": "Key Launch",
-      "date": "2023",
-      "description": "What shipped and the measurable outcome.",
-      "link": ""
+      "company": "Organization Name",
+      "title": "Volunteer Role",
+      "location": "City, State",
+      "start": "YYYY",
+      "end": "YYYY",
+      "highlights": [
+        "Volunteer impact bullet.",
+        "Volunteer impact bullet."
+      ]
     },
     {
-      "title": "Speaking / Publication",
-      "date": "2022",
-      "description": "Where you spoke/published and the topic.",
-      "link": ""
+      "company": "Organization Name",
+      "title": "Volunteer Role",
+      "location": "City, State",
+      "start": "YYYY",
+      "end": "YYYY",
+      "highlights": [
+        "Volunteer impact bullet.",
+        "Volunteer impact bullet."
+      ]
     }
   ],
   "testimonials": [

@@ -217,7 +217,7 @@ function render(profile) {
   const volEl = $("volunteeringGrid");
   if (volEl) {
     volEl.innerHTML = "";
-    for (const item of profile.volunteering ?? []) volEl.appendChild(achievementItem(item));
+    for (const item of (profile.volunteering ?? []).slice(0, 3)) volEl.appendChild(experienceItem(item));
   }
 
   const tEl = $("testimonialGrid");
